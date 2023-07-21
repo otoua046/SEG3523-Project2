@@ -21,6 +21,7 @@ a:hover{
     background:#ffffff;
     border-radius: 0%;
 }
+
 .nav-link,
 .navbar-brand {
     color: rgb(0, 0, 0);
@@ -31,6 +32,11 @@ a:hover{
     padding-bottom: 0%;
     padding-left: 1%;
 }
+
+
+
+
+
 .nav-link {
     margin-right: 5em !important;
 }
