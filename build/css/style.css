@@ -1,0 +1,351 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #ffffff;
+    font-family: "Montserrat";
+    margin: 0;
+    height:100%;
+}
+
+h1{
+    font-weight: 900;
+}
+
+a:hover{
+    color: grey;
+}
+
+
+/* Navbar */
+.navbar {
+    background:#ffffff;
+    border-radius: 0%;
+}
+.nav-link,
+.navbar-brand {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    text-align: center;
+    font-weight: 900;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-left: 1%;
+}
+.nav-link {
+    margin-right: 5em !important;
+}
+.nav-link:hover {
+    color: grey;
+}
+.navbar-collapse {
+    justify-content: center;
+    
+}
+
+.navbar .navBooknowBtn{
+    border-radius: 0em;
+    background-color: #8F001A;
+    margin-right: 1%;
+    color: #F2F2F2;
+    font-weight: bold; 
+
+}
+
+/* Landing page */
+
+.header {
+    background-image: url("img/Uottawa.webp");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.description {
+	left: 70%;
+	position: relative;
+	top: 40%;
+    padding-top: 100%;
+	transform: translate(-50%, -55%);
+	text-align: left;
+}
+.description h1 {
+	color: white;
+    font-weight: 900;
+    
+    
+}
+
+
+.description button {
+    border-radius: 0em;
+    background-color: #8F001A;
+    
+    color:white;
+   
+}
+.description button:hover {
+
+    background:gray;
+    color:white;
+    
+}
+
+
+.description span{
+    color: #8F001A;
+}
+
+.description .top-text{
+    color: black;
+    font-weight: 700;
+}
+
+/* Trainers */
+.trainers h1{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-weight: bold;
+}
+
+.trainers .card{
+    display:inline-block;
+    margin-right: 4%;
+    margin-left: 4%;
+    background-color: #F2F2F2;
+    border-radius: 0.5em;
+    border-width: 0;
+}
+
+.trainers .card .trainer-name{
+    color: #8F001A;
+    font-weight: bold;
+    font-size: 0.83em;
+}
+
+.trainers .card .trainer-title{
+    font-weight: bold;
+    font-size: 0.67em;
+}
+
+.trainers .card a{
+    text-align: center;
+    background-color: #8F001A;
+    border-width: 0;
+    border-radius: 0em;
+}
+
+.card-deck{
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 5%;
+     
+}
+.card-img-top {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+}
+
+/* programs */
+
+.programs h1{
+    text-align: center;
+    
+    padding-bottom: 2%;
+    font-weight: bold;
+}
+.programs{
+    padding-top: 2%;
+    padding-bottom:5%;
+ 
+}
+
+
+.programs .facets-row{
+    padding-left: 30%;
+    padding-right: 30%;
+    
+}
+
+.programs .hours{
+    padding-left: 15%;
+    padding-right: 5%;
+    
+}
+
+.programs .location .row .col{
+    font-weight: 600;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    font-size: 130%;
+    
+}
+.programs .hours .row .col{
+    font-weight: 600;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    font-size: 130%;
+}
+
+.programs .Art .row .col{
+    font-weight: 600;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    font-size: 130%;
+}
+
+.programs .cards-row{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+}
+
+.programs .title{
+    font-weight: 600;
+    color: #8F001A;
+    background-color: #F2F2F2;
+}
+
+
+
+
+
+
+
+
+.programs button{
+    border-radius: 0%;
+    display: block;
+    width: 100%;
+    font-weight: 500;
+    border-style: solid;
+    border-width: 1px;
+    background-color: transparent;
+    color: black;
+    border-color: black;
+    
+    
+}
+
+.programs .programs-container{
+    width: 100%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+}
+
+.programs button:hover{
+    color: white;
+    background-color: grey;
+    border-color: grey;
+}
+
+
+
+
+
+
+
+/* locations */
+
+.locations{
+    padding-bottom: 3%;
+}
+.locations h1{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-weight: bold;
+}
+
+.locations .card{
+    background-color: #F2F2F2;
+    
+} 
+.colorful-strap-line {
+    background-color: #8F001A; 
+    
+    
+    padding: 10px;
+    font-weight: bold;
+}
+
+.narrow-strap-line {
+    width: 5%; 
+}
+
+.locations .row{
+    
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.locations .location-name{
+    
+    font-weight: bold;
+}
+
+
+
+/* Book now form*/
+
+.booknow h1{
+    text-align: center;
+    padding-top: 2%;
+    
+    font-weight: bold;
+}
+
+#row1-leftside {
+    padding-left: -25%;
+    padding-right: 5%;
+}
+#row1-rightside {
+    padding-left: 5%;
+    
+}
+
+#row3-leftside {
+    padding-left: -25%;
+}
+#row3-rightside {
+    padding-left: 5%;
+    
+}
+
+.booknow .row{
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 2%;
+}
+
+
+.booknow .btn-container{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.booknow button{
+    border-radius: 0px;
+    background-color: #8F001A;
+    border-color: #8F001A;
+    font-weight: bold;
+    
+}
+
+.booknow button:hover{
+    background-color: grey;
+    color: white;
+    border-color: grey;
+}
+
+#alert{
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+
+
